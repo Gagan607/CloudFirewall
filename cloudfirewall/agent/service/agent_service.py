@@ -1,4 +1,3 @@
-from _typeshed import Self
 import logging
 import os
 import time
@@ -104,7 +103,7 @@ class AgentFirewall(TaskManager):
             #--------------uncomment the below line to run the command---------
             #--------------replace the password with your system password---------
 
-            # sudoPassword = ''    #senitive
+            # sudoPassword = '!!!!!!PASSWORD HERE!!!!!'    #senitive
 
             # command__to_read_nft_file = f'nft -f firewall.nft'
 
